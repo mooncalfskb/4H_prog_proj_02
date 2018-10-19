@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Functions</title>
+	<meta name="generator" content="BBEdit 12.1" />
+	<script src="js/jquery-3.3.1.min.js"></script> 
+	<script src="js/fourH_doc_ready.js?0005"></script> 
+	<script src="js/fourH_common.js?0005"></script> 
+	
+	<script>
+
+	 function writeSomething(words){
+	 
+	 	saySomething(words);
+	 	var my_html = "<p>" + words + "</p>";
+	 	$('#holder').html(my_html);
+	 	
+	 }
+	 
+	 function saySomething(words){
+	 
+	 	alert("you said " + words);
+	 
+	 }
+
+	</script>
+
+</head>
+<body>
+
+
+
+<h1>Hello 4H</h1>
+
+<form id="basic_form">
+<input name="my_text" id="my_text" type="text" value=""></input>
+<input name="submit" id="basic_submit" type="submit"></input>
+</form>
+
+<div id="holder"></p>
+
+</body>
+</html>
